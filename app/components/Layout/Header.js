@@ -10,7 +10,7 @@ class Header extends React.Component {
       					<a className="nav-logo" href="//www.mercadolibre.com.ar/">
       						Mercado Libre Argentina - Donde comprar y vender de todo
       					</a>
-                <SearchForm />
+                <SearchForm onSearchChange={this.props.onSearchChange}/>
         		</div>
         	</header>
       );
